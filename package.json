@@ -1,7 +1,8 @@
 {
   "name": "next-step",
   "version": "1.0.0",
-  "description": "",
+  "description": "omg next step app",
+  "repository": "https://github.com/kaddopur/next-step",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -27,6 +28,9 @@
     "expect": "^1.13.4",
     "mocha": "^2.3.4",
     "pre-commit": "^1.1.2"
+  },
+  "engines": {
+    "node": "5.x"
   },
   "precommit": [
     "lint",
