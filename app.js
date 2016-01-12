@@ -1,12 +1,12 @@
-import express from 'express';
+import express from 'express'
 
-let app = express();
-const PORT = 3000;
+let app = express()
+const PORT = 3000
 
 app.get('/', (req, res) => {
-  res.send('Hello World');
-});
+  res.send('Hello World')
+})
 
 app.listen(PORT, () => {
-  console.log(`Example app listening on port ${PORT}!`);
-});
+  console.log(`Example app listening on port ${PORT}!`) //eslint-disable-line no-console
+})
