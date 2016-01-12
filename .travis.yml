@@ -3,5 +3,11 @@ language: node_js
 node_js:
   - "node"
 
+before_deploy: "echo 'ready?'"
+
 deploy:
   provider: azure_web_apps
+
+after_deploy:
+  - "npm start"
+
